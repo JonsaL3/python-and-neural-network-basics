@@ -1,5 +1,8 @@
 import neural_network_basics as nnb
+import convolutional_neural_network_basics as cnnb
+import tensorflow as tf
 
+# Mi primera red neuronal, aprendiendo el concepto de SUMA.
 # nnb.mi_primera_red_neuronal()
 # nnb.entrenar_y_guardar_modelo()
 # nnb.cargar_modelo_entrenado_y_hacer_predicciones(20, 20)
@@ -10,13 +13,8 @@ import neural_network_basics as nnb
 # print("Generando y guardando modelo...")
 # nnb.entrenar_y_guardar_modelo_providing_dataset(dataset[0], dataset[1])
 
-nnb.cargar_modelo_entrenado_y_hacer_predicciones(20, 20)
-nnb.cargar_modelo_entrenado_y_hacer_predicciones(23, 33)
-nnb.cargar_modelo_entrenado_y_hacer_predicciones(34, 34)
-nnb.cargar_modelo_entrenado_y_hacer_predicciones(20, 44)
-nnb.cargar_modelo_entrenado_y_hacer_predicciones(35, 20)
-nnb.cargar_modelo_entrenado_y_hacer_predicciones(20, 66)
-nnb.cargar_modelo_entrenado_y_hacer_predicciones(1, 66)
-nnb.cargar_modelo_entrenado_y_hacer_predicciones(64, 20)
-nnb.cargar_modelo_entrenado_y_hacer_predicciones(24, 44)
-nnb.cargar_modelo_entrenado_y_hacer_predicciones(66, 66)
+# nnb.cargar_modelo_entrenado_y_hacer_predicciones(512, 23444)
+
+# Un paso mas alla, mi primer red neuronal convolucional, aprende a identificar elementos en una imagen.
+# cnnb.mi_primera_red_neuronal_convolucional()
+cnnb.pruebo_mi_primera_red_neuronal_convolucional()

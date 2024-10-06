@@ -93,5 +93,3 @@ def generar_un_dataset_como_es_debido(tamano_array: int):
 
     # Devolvemos ambos arrays
     return np.array(datos_entrenamiento_operandos), np.array(datos_entrenamiento_resultado)
-
-# TODO def test_neural_network():
